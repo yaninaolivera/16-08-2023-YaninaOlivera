@@ -1,0 +1,15 @@
+  500  touch main.js index.html
+  501  git add .
+  502  git commit -m "commit 01 YaninaOlivera"
+  503  git push -u origin main
+  504  git checkout -b feature
+  505  mkdir Hardware Software SeguridadInformatica
+  506  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  507  git add .
+  508  git commit -m "commit 02 YaninaOlivera"
+  509  git push -u origin feature
+  510  git checkout main
+  511  mv main.js resumenHardware.txt
+  512  mv index.html resumenSoftware.txt
+  513  touch comandos.txt
+  514  history 50 > comandos.txt
